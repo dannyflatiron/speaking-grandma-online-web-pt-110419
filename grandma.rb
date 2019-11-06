@@ -19,8 +19,7 @@ elsif phrase == "Hi Nana, how are you?"
   return "HUH?! SPEAK UP, SONNY!"
 elsif phrase == "Hi!"
   return "HUH?! SPEAK UP, SONNY!"
-
-
-
+elsif phrase == phrase.upcase
+  return "NO, NOT SINCE 1938!"
   end
 end
